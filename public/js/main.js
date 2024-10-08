@@ -19,7 +19,7 @@ function authStateListener() {
             // https://firebase.google.com/docs/reference/js/v8/firebase.User
             var uid = user.uid;
             // ...
-            location.href = 'home.html';
+            location.href = 'listproject.html';
         } else {
             // User is signed out
             // ...
