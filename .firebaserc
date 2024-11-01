@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "portfolio-v1-joaoneves"
-  }
+    "default": "portfolio-v1-joaoneves",
+    "ist105": "ist105midterm-joaoferrazneves"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
