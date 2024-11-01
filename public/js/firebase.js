@@ -1,24 +1,18 @@
-/*
-  CCTB Website Development
-  IST105
-  Oct 2024
-  Description: This is a simple login website where students are asked to 
-  implement Social Network Login with Firebase
-*/
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB5lQs0rUc5ljSvlFxRUamwcpScQrQ-Nv0",
-  authDomain: "portfolio-v1-joaoneves.firebaseapp.com",
-  projectId: "portfolio-v1-joaoneves",
-  storageBucket: "portfolio-v1-joaoneves.appspot.com",
-  messagingSenderId: "1006755374363",
-  appId: "1:1006755374363:web:e7233c606c995af6cd1fbe"
+  apiKey: "AIzaSyDVdibSCD_9P3kcX1clKNmLEEs6Z2YMgKA",
+  authDomain: "ist105midterm-joaoferrazneves.firebaseapp.com",
+  projectId: "ist105midterm-joaoferrazneves",
+  storageBucket: "ist105midterm-joaoferrazneves.firebasestorage.app",
+  messagingSenderId: "884120635350",
+  appId: "1:884120635350:web:612a5e6ad14a36beb58677"
 };
 
-
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-
+const app = initializeApp(firebaseConfig);
 
